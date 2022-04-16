@@ -1,5 +1,10 @@
 # Prototyping
 
+## Object links
+``` js
+
+```
+
 ## Inspect classes relationships
 
 ``` js
