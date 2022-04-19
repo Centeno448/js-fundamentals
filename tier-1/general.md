@@ -1,7 +1,7 @@
 # General
 
 ## JSON stringification
-We can use the built in `JSON.stringify()` method to convert a JS object or value to a JSON string. This is usefull for saving complex data types in a database, sending data to an API or saving into local storage.
+We can use the built in `JSON.stringify()` method to convert a JS object or value to a JSON string. This is useful for saving complex data types in a database, sending data to an API or saving into local storage.
 
 ``` js
 JSON.stringify({ name: "diego", age: 22 }); // '{"name": "diego","age":22}'
@@ -137,7 +137,7 @@ function makeNewFunction() {
 ```
 
 ## Boxing & unboxing
-Boxing refers to wrapping an object around a primitive value, in order to gain access to usefull methods. Unboxing is the inverse process, gaining a primitive from a boxing object.
+Boxing refers to wrapping an object around a primitive value, in order to gain access to useful methods. Unboxing is the inverse process, gaining a primitive from a boxing object.
 
 ``` js
 const primitive = "Hello";

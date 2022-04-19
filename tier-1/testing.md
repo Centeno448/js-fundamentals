@@ -40,7 +40,7 @@ _TODO_
 _TODO_
 
 ## `beforeEach`
-This method will be ran before each of the tests in the suite are ran. Usefull for resetting some global state that all tests depend on.
+This method will be ran before each of the tests in the suite are ran. useful for resetting some global state that all tests depend on.
 
 ``` js
 const globalDatabase = makeGlobalDatabase();
@@ -66,7 +66,7 @@ test('can insert a thing', () => {
 ```
 
 ## `afterEach`
-This method will be ran after each of the tests in the suite are ran. Usefull for cleaning up temporary state used in tests.
+This method will be ran after each of the tests in the suite are ran. useful for cleaning up temporary state used in tests.
 
 ``` js
 const globalDatabase = makeGlobalDatabase();
