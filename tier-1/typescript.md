@@ -253,14 +253,40 @@ console.log(MyClass.y); // TS Error
 
 
 ## Functions
-Function types, optional and default parameters, rest paramenters
+Functions in TS can be asigned to types, have default and optional parameters and can accept an undefined number of parameters (rest parameters)
 
 ``` ts
+// Function types
+
+type SayHelloFunction = (name: string) => void;
+
+function greeter(fn: SayHelloFunction){
+  // ...
+}
+
+// optional and default params
+
+function myFunction(
+  normalParam: string,
+  defaultParam: boolean = true,
+  optional?: number
+) {
+  // ...
+}
+
+
+// rest parameters
+function acummulator(...numbers: number[]) {
+  return numbers.reduce((prev, current) => prev + current, 0);
+}
+
+acummulator(2, 5, 6, 8); // 21
 
 ```
 
 ## Modules
 Namespaces, re-exports, default exports, module resolution
+
 ``` ts
 
 ```
