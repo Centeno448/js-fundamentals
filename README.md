@@ -4,7 +4,7 @@ A Collection of JS fundamental concepts to become an effective JS developer.
 
 ## Index
 
-### Tier 1
+### Tier 1 concepts
 - [Asynchronicity](./tier-1/asynchronicity.md)
 - [Best Practices](./tier-1/best-practices.md)
 - [Binding](./tier-1/binding.md)
